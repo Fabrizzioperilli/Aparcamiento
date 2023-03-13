@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Module: Aparcamiento::Funcionalidades
+  
+    &mdash; Documentation by YARD 0.9.28
+  
+</title>
+
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+
+  <link rel="stylesheet" href="../css/common.css" type="text/css" />
+
+<script type="text/javascript">
+  pathId = "Aparcamiento::Funcionalidades";
+  relpath = '../';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="../class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="../_index.html">Index (F)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../Aparcamiento.html" title="Aparcamiento (module)">Aparcamiento</a></span></span>
+     &raquo; 
+    <span class="title">Funcionalidades</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="../class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Module: Aparcamiento::Funcionalidades
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>lib/Aparcamiento/funcionalidades.rb</dd>
+  </dl>
+  
+</div>
+
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    
+<p>Modulo que contiene las funcionalidades del programa</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+  
+    <h2>
+      Constant Summary
+      <small><a href="#" class="constants_summary_toggle">collapse</a></small>
+    </h2>
+
+    <dl class="constants">
+      
+        <dt id="COMPLETO-constant" class="">COMPLETO =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>Returns Devuelve la constante COMPLETO.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Symbol</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Devuelve la constante COMPLETO</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='symbol'>:completo</span></pre></dd>
+      
+        <dt id="LIBRE-constant" class="">LIBRE =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>Returns Devuelve la constante LIBRE.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Symbol</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Devuelve la constante LIBRE</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='symbol'>:Libre</span></pre></dd>
+      
+    </dl>
+  
+
+
+
+
+
+
+
+  
+    <h2>
+      Class Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#estado-class_method" title="estado (class method)">.<strong>estado</strong>(datos)  &#x21d2; Symbol </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Funcion que devuelve el estado del aparcamiento.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#n_plazas_minusvalidos_libre-class_method" title="n_plazas_minusvalidos_libre (class method)">.<strong>n_plazas_minusvalidos_libre</strong>(datos)  &#x21d2; Integer </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Numero de plazas libres de minusvalidos.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#n_vehiculos_estacionados-class_method" title="n_vehiculos_estacionados (class method)">.<strong>n_vehiculos_estacionados</strong>(datos)  &#x21d2; Integer </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Numero de vehiculos estacionados.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#porcentaje_plazas_libres_minusvalidos-class_method" title="porcentaje_plazas_libres_minusvalidos (class method)">.<strong>porcentaje_plazas_libres_minusvalidos</strong>(datos)  &#x21d2; Float </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Porcentaje de plazas libres minusvalidos.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#porcentaje_plazas_ocupadas-class_method" title="porcentaje_plazas_ocupadas (class method)">.<strong>porcentaje_plazas_ocupadas</strong>(datos)  &#x21d2; Float </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Porcentaje de ocupacion.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#porcentaje_reverva_plazas_minusvalidos-class_method" title="porcentaje_reverva_plazas_minusvalidos (class method)">.<strong>porcentaje_reverva_plazas_minusvalidos</strong>(datos, porcentaje)  &#x21d2; Bool </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Funcion porcetanje de reserva.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+
+  <div id="class_method_details" class="method_details_list">
+    <h2>Class Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="estado-class_method">
+  
+    .<strong>estado</strong>(datos)  &#x21d2; <tt>Symbol</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Funcion que devuelve el estado del aparcamiento</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>.estadodatos</span>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Plaza.html" title="Aparcamiento::Plaza (class)">Aparcamiento::Plaza</a></span></tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Recibe un objeto de tipo Aparcamiento::Datos</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Symbol</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Devuelve un simbolo que representa el estado del aparcamiento</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Aparcamiento/funcionalidades.rb', line 21</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Aparcamiento::Funcionalidades (module)">Funcionalidades</a></span></span><span class='period'>.</span><span class='id identifier rubyid_estado'>estado</span><span class='lparen'>(</span><span class='id identifier rubyid_datos'>datos</span><span class='rparen'>)</span>
+  <span class='kw'>if</span> <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_instance_of?'>instance_of?</span> <span class='const'><span class='object_link'><a href="../Aparcamiento.html" title="Aparcamiento (module)">Aparcamiento</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Datos.html" title="Aparcamiento::Datos (class)">Datos</a></span></span>
+    <span class='kw'>if</span> <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_plazas_libres'>plazas_libres</span> <span class='op'>==</span> <span class='int'>0</span>
+      <span class='kw'>return</span> <span class='const'><span class='object_link'><a href="#COMPLETO-constant" title="Aparcamiento::Funcionalidades::COMPLETO (constant)">COMPLETO</a></span></span>
+    <span class='kw'>else</span>
+      <span class='kw'>return</span> <span class='const'><span class='object_link'><a href="#LIBRE-constant" title="Aparcamiento::Funcionalidades::LIBRE (constant)">LIBRE</a></span></span>
+    <span class='kw'>end</span>
+  <span class='kw'>else</span>
+    <span class='kw'>return</span> <span class='kw'>nil</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="n_plazas_minusvalidos_libre-class_method">
+  
+    .<strong>n_plazas_minusvalidos_libre</strong>(datos)  &#x21d2; <tt>Integer</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Numero de plazas libres de minusvalidos</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>.n_plazas_minusvalidos_libredatos</span>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Datos.html" title="Aparcamiento::Datos (class)">Datos</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+61
+62
+63
+64
+65
+66
+67</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Aparcamiento/funcionalidades.rb', line 61</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Aparcamiento::Funcionalidades (module)">Funcionalidades</a></span></span><span class='period'>.</span><span class='id identifier rubyid_n_plazas_minusvalidos_libre'>n_plazas_minusvalidos_libre</span><span class='lparen'>(</span><span class='id identifier rubyid_datos'>datos</span><span class='rparen'>)</span>
+  <span class='kw'>if</span> <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_instance_of?'>instance_of?</span> <span class='const'><span class='object_link'><a href="../Aparcamiento.html" title="Aparcamiento (module)">Aparcamiento</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Datos.html" title="Aparcamiento::Datos (class)">Datos</a></span></span>
+    <span class='kw'>return</span> <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_n_plazas_minusvalidos_libre'>n_plazas_minusvalidos_libre</span>
+  <span class='kw'>else</span>
+    <span class='kw'>return</span> <span class='kw'>nil</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="n_vehiculos_estacionados-class_method">
+  
+    .<strong>n_vehiculos_estacionados</strong>(datos)  &#x21d2; <tt>Integer</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Numero de vehiculos estacionados</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>.n_vehiculos_estacionadosdatos</span>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Datos.html" title="Aparcamiento::Datos (class)">Datos</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+76
+77
+78
+79
+80
+81
+82</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Aparcamiento/funcionalidades.rb', line 76</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Aparcamiento::Funcionalidades (module)">Funcionalidades</a></span></span><span class='period'>.</span><span class='id identifier rubyid_n_vehiculos_estacionados'>n_vehiculos_estacionados</span><span class='lparen'>(</span><span class='id identifier rubyid_datos'>datos</span><span class='rparen'>)</span>
+  <span class='kw'>if</span> <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_instance_of?'>instance_of?</span> <span class='const'><span class='object_link'><a href="../Aparcamiento.html" title="Aparcamiento (module)">Aparcamiento</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Datos.html" title="Aparcamiento::Datos (class)">Datos</a></span></span>
+    <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_conjunto_vehiculo'>conjunto_vehiculo</span><span class='period'>.</span><span class='id identifier rubyid_size'>size</span>
+  <span class='kw'>else</span>
+    <span class='kw'>return</span> <span class='kw'>nil</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="porcentaje_plazas_libres_minusvalidos-class_method">
+  
+    .<strong>porcentaje_plazas_libres_minusvalidos</strong>(datos)  &#x21d2; <tt>Float</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Porcentaje de plazas libres minusvalidos</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>.porcentaje_plazas_libres_minusvalidosdatos</span>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Datos.html" title="Aparcamiento::Datos (class)">Datos</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Float</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Porcentaje</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Aparcamiento/funcionalidades.rb', line 106</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Aparcamiento::Funcionalidades (module)">Funcionalidades</a></span></span><span class='period'>.</span><span class='id identifier rubyid_porcentaje_plazas_libres_minusvalidos'>porcentaje_plazas_libres_minusvalidos</span><span class='lparen'>(</span><span class='id identifier rubyid_datos'>datos</span><span class='rparen'>)</span>
+  <span class='kw'>if</span> <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_instance_of?'>instance_of?</span> <span class='const'><span class='object_link'><a href="../Aparcamiento.html" title="Aparcamiento (module)">Aparcamiento</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Datos.html" title="Aparcamiento::Datos (class)">Datos</a></span></span>
+    <span class='kw'>if</span> <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_n_plazas_minusvalidos_libre'>n_plazas_minusvalidos_libre</span> <span class='op'>!=</span> <span class='int'>0</span>
+      <span class='id identifier rubyid_n_plazas_minusvalidos_libre'>n_plazas_minusvalidos_libre</span><span class='lparen'>(</span><span class='id identifier rubyid_datos'>datos</span><span class='rparen'>)</span> <span class='op'>*</span> <span class='int'>100</span> <span class='op'>/</span> <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_n_plazas_minusvalidos_libre'>n_plazas_minusvalidos_libre</span>
+    <span class='kw'>else</span>
+      <span class='kw'>return</span> <span class='int'>0</span>
+    <span class='kw'>end</span>
+  <span class='kw'>else</span>
+    <span class='kw'>return</span> <span class='kw'>nil</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="porcentaje_plazas_ocupadas-class_method">
+  
+    .<strong>porcentaje_plazas_ocupadas</strong>(datos)  &#x21d2; <tt>Float</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Porcentaje de ocupacion</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>.porcentaje_plazas_ocupadasdatos</span>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Datos.html" title="Aparcamiento::Datos (class)">Datos</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Float</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Porcentaje</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+91
+92
+93
+94
+95
+96
+97</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Aparcamiento/funcionalidades.rb', line 91</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Aparcamiento::Funcionalidades (module)">Funcionalidades</a></span></span><span class='period'>.</span><span class='id identifier rubyid_porcentaje_plazas_ocupadas'>porcentaje_plazas_ocupadas</span><span class='lparen'>(</span><span class='id identifier rubyid_datos'>datos</span><span class='rparen'>)</span>
+  <span class='kw'>if</span> <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_instance_of?'>instance_of?</span> <span class='const'><span class='object_link'><a href="../Aparcamiento.html" title="Aparcamiento (module)">Aparcamiento</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Datos.html" title="Aparcamiento::Datos (class)">Datos</a></span></span>
+    <span class='lparen'>(</span><span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_plazas_libres'>plazas_libres</span> <span class='op'>*</span> <span class='int'>100</span><span class='rparen'>)</span> <span class='op'>/</span> <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_numero_plazas'>numero_plazas</span>
+  <span class='kw'>else</span>
+    <span class='kw'>return</span> <span class='kw'>nil</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="porcentaje_reverva_plazas_minusvalidos-class_method">
+  
+    .<strong>porcentaje_reverva_plazas_minusvalidos</strong>(datos, porcentaje)  &#x21d2; <tt>Bool</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Funcion porcetanje de reserva</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>.porcentaje_reverva_plazas_minusvalidosdatos</span>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="Datos.html" title="Aparcamiento::Datos (class)">Datos</a></span></tt>)</span>
+      
+      
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>porcentaje</span>
+      
+      
+        <span class='type'>(<tt>Float</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Bool</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/Aparcamiento/funcionalidades.rb', line 41</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Aparcamiento::Funcionalidades (module)">Funcionalidades</a></span></span><span class='period'>.</span><span class='id identifier rubyid_porcentaje_reverva_plazas_minusvalidos'>porcentaje_reverva_plazas_minusvalidos</span><span class='lparen'>(</span><span class='id identifier rubyid_datos'>datos</span><span class='comma'>,</span> <span class='id identifier rubyid_porcentaje'>porcentaje</span><span class='rparen'>)</span>
+  <span class='kw'>if</span> <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_instance_of?'>instance_of?</span> <span class='const'><span class='object_link'><a href="../Aparcamiento.html" title="Aparcamiento (module)">Aparcamiento</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Datos.html" title="Aparcamiento::Datos (class)">Datos</a></span></span> <span class='kw'>and</span> <span class='id identifier rubyid_porcentaje'>porcentaje</span> <span class='op'>&gt;=</span> <span class='int'>0</span> <span class='kw'>and</span> <span class='id identifier rubyid_porcentaje'>porcentaje</span> <span class='op'>&lt;=</span> <span class='int'>100</span>
+    <span class='id identifier rubyid_valor'>valor</span> <span class='op'>=</span> <span class='id identifier rubyid_datos'>datos</span><span class='period'>.</span><span class='id identifier rubyid_count'>count</span> <span class='op'>/</span> <span class='int'>40</span>
+    <span class='kw'>if</span> <span class='id identifier rubyid_valor'>valor</span> <span class='op'>&gt;=</span> <span class='id identifier rubyid_porcentaje'>porcentaje</span>
+      <span class='kw'>return</span> <span class='kw'>true</span>
+    <span class='kw'>else</span>
+      <span class='kw'>return</span> <span class='kw'>false</span>
+    <span class='kw'>end</span>
+  <span class='kw'>else</span>
+    <span class='kw'>return</span> <span class='kw'>nil</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Thu Dec  1 16:23:49 2022 by
+  <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.28 (ruby-3.0.0).
+</div>
+
+    </div>
+  </body>
+</html>
